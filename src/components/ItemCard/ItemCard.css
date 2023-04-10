@@ -1,0 +1,23 @@
+
+
+.card {
+    
+    margin: auto;
+    text-align: center;
+    border: 2px solid black;
+    
+      
+}
+
+.card > img {
+
+  width: 90%;
+  height: 400px;
+  margin-top: 20px;
+  
+}
+
+
+
+
+
