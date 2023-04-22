@@ -16,12 +16,12 @@ function App() {
 
         <NavBar/>   
      
-        <Slogan/>
+        <Slogan/>     {/* Comp. Slogan de la pagina*/}
 
-        <ImgMove/>
+        <ImgMove/>    {/* comp. de imagenes que se mueven */}
 
-        <Ropa/>
-        <Ropa/>
+        <Ropa/>       {/* comp. de los botones remera etc..*/}
+        
 
           <Routes>
 

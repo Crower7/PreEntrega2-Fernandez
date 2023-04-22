@@ -2,7 +2,7 @@ import CartWidget from '../CartWidget/CartWidget'
 import './NavBar.css'
 import { Link } from 'react-router-dom'
 
-const NavBar = () =>{       //componente 1
+const NavBar = () =>{       //componente del nav (inicio-galeria-contactos-etc.)
     return (
         <nav className="NavBar">
             <h1 className='titulo'>CrowerStore</h1>

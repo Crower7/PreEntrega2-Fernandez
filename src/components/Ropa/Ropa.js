@@ -7,7 +7,7 @@ export const Ropa = () => {
        <Link to='/category/remera' >remeras</Link>
        <Link to='/category/pantalon' >pantalones</Link>
        <Link to='/category/campera' >Camperas</Link>
-       <Link to='/category/Buzo' >Buzos</Link>               
+       <Link to='/category/buzo' >Buzos</Link>               
         
     </div>
   )

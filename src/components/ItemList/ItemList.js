@@ -1,12 +1,14 @@
 import React from 'react'
 import ItemCard from '../ItemCard/ItemCard';
+import './ItemList.css'
 
 export const ItemList = ({products}) => {
   return (
-    <div>
+    <div className='contenedor'>
         {" "}
         {products.map((product) => {
           return ( 
+            
             <ItemCard {...product}/>
             
           );
