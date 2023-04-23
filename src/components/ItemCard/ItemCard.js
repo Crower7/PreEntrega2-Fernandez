@@ -1,23 +1,25 @@
+import ItemCount from '../ItemCount/ItemCount'
 import './ItemCard.css'
 
-const ItemCard = ({name, precio, img}) =>  { 
- 
-  return  ( 
-    <div className="card">
-      
-       <div className='card_img'> {img} </div> 
+const ItemCard = ({name, precio, img}) =>  {
+
+  return  (
+    <div className="card">    {/* caja donde esta la imagen, nombre, precio contador e ID*/}
+
+       <div className='card_img'> {img} </div>
         <h2>{name}</h2>
         <h3 className='btnPrecio'>{precio}</h3>
-        <button className='shakeFix btnComprar'>comprar</button>
+        <ItemCount/>
+        
     </div>
 
-  
 
 
-    
+
+
   )
-  
-} 
+
+}
 
 export default ItemCard
 
