@@ -9,9 +9,10 @@ const NavBar = () =>{       //componente del nav (inicio-galeria-contactos-etc.)
                 <div>
                 
                     <button><Link to='/'>Inicio</Link></button>
-                    <button>Galeria</button>
-                    <button>Contactenos</button>
-                    <button>productos</button>
+                    <button><Link to='/category/remera' >remeras</Link></button>
+                    <button><Link to='/category/pantalon' >pantalones</Link></button>
+                    <button><Link to='/category/campera' >Camperas</Link></button>
+                    <button><Link to='/category/buzo' >Buzos</Link></button>
                                     
                 </div>
                     <CartWidget/>
